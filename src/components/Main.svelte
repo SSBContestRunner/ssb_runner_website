@@ -42,8 +42,8 @@
             <h1 class="text-2xl font-semibold">Sponsor</h1>
             <ul class="flex px-2 md:px-16">
                 <li>
-                    <h2 class="text-xl text-primary-400 font-semibold pt-4 pb-1">Aliyun VPS</h2>
-                    <p class="font-medium">Charley_X</p>
+                    <h2 class="text-xl text-primary-400 font-semibold pt-4 pb-1">Cxit Cloud</h2>
+                    <p class="font-medium">Charley_X_</p>
                     <p class="font-medium">BI3ARY</p>
                 </li>
                 

@@ -1,5 +1,5 @@
 <script>
-    let { size = "2rem" } = $props();
+    let { size = "2em" } = $props();
 </script>
 
 <svg

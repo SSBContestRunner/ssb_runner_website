@@ -1,5 +1,7 @@
 <script>
     import Logo from "../assets/svgIcon/logo.svelte";
+    import Linkarrow from "../assets/svgIcon/linkarrow.svelte";
+
     let { highlight } = $props();
 
     let highlightStyle = $derived((text) => {
@@ -10,7 +12,7 @@
     })
 </script>
 
-<nav class="place-items-center py-2 bg-slate-900 text-white">
+<nav class="place-items-center py-2 bg-slate-900 text-white sticky top-0">
     <div class="container flex justify-between items-center px-2 md:px-0">
         <section class="flex items-center gap-2">
             <Logo />
@@ -22,7 +24,10 @@
             <li class="hover:underline">
                 <a
                     href="https://github.com/SSBContestRunner/ssb_contest_runner"
-                    target="_blank">GitHub</a
+                    target="_blank" 
+                    class="flex items-center">
+                    
+                    GitHub <Linkarrow /></a
                 >
             </li>
         </ul>
