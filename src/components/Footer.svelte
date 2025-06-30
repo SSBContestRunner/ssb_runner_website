@@ -3,8 +3,8 @@
     import Copyleft from "../assets/svgIcon/copyleft.svelte";
 </script>
 
-<footer class="@container grid place-content-center py-8 bg-gray-100">
-    <div class="flex justify-between items-center w-[90cqw]">
+<footer class="place-items-center py-8 bg-gray-100 px-2 md:px-0">
+    <div class="container flex justify-between items-center">
         <scetion class="text-gray-400">
             <h1>SSB Runner is an <span>non-profit, not-commercial, open source project.</span></h1>
             <h1>It's just because it allows more people to join the competition.</h1>
