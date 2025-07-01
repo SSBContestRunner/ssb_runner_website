@@ -2,12 +2,12 @@
     import Index from "./Main/index.svelte";
     import Download from "./Main/download.svelte";
 
-    let { page } = $props();
+    let { page, toPage } = $props();
 </script>
 
 <main class="flex flex-col items-center grow">
     {#if page == "home"}
-        <Index />
+        <Index {toPage} />
     {:else if page == 'download'}
         <Download />
     {/if}

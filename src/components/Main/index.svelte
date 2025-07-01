@@ -1,3 +1,7 @@
+<script>
+    let { toPage } = $props();
+</script>
+
 <section class="container flex flex-col items-center">
     <h1 class="text-6xl font-bold text-balance text-center pt-16 pb-8">
         SSB competiton listening training software
@@ -18,8 +22,10 @@
             <div class="mb-8">
                 <span>Click the button to proceed to download page</span>
             </div>
-            <button class="bg-primary-400 text-white px-4 py-2 rounded-md"
-                >Download</button
+            <button
+                class="bg-primary-400 text-white px-4 py-2 rounded-md cursor-pointer
+                hover:outline-2 outline-offset-1 outline-primary-400"
+                onclick={() => toPage("download")}>Download</button
             >
         </div>
     </div>

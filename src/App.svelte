@@ -12,6 +12,6 @@
 
 <div class="min-h-screen flex flex-col">
   <Header highlight={page} {toPage} />
-  <Main {page} />
+  <Main {page} {toPage} />
   <Footer />
 </div>

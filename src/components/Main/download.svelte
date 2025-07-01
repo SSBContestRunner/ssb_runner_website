@@ -17,7 +17,7 @@
             Current Version
         </h2>
         <h3 class="text-xl font-semibold my-4">v0.1.0</h3>
-        <div class="flex flex-col md:flex-row gap-4 justify-between mb-8">
+        <div class="flex flex-col flex-wrap md:flex-row gap-4 justify-between mb-8">
             <div class="grow flex justify-center items-center bg-primary-400/10 p-8 rounded-2xl gap-8">
                 <Win />
                 <div class="flex flex-col gap-2">
