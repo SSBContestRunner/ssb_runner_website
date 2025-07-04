@@ -8,7 +8,7 @@
 <main class="flex flex-col items-center grow">
     {#if page == "home"}
         <Index {toPage} />
-    {:else if page == 'download'}
+    {:else if page == "download"}
         <Download />
     {/if}
 </main>
