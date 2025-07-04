@@ -4,17 +4,19 @@
     import Linux from "../../assets/svgIcon/linux.svelte";
 
     import DownloadBtn from "../Download/downloadBtn.svelte";
+
+    import { t } from "../../lib/i18n.js";
 </script>
 
 <section class="container flex flex-col items-center">
     <h1 class="text-6xl font-bold text-balance text-center pt-16 pb-8">
-        Download
+        {t('download-title')}
     </h1>
 </section>
 <section class="place-items-center w-full">
     <div class="container px-2 md:px-0">
         <h2 class="text-3xl font-semibold text-primary-400 mt-8">
-            Current Version
+            {t('download-curr_ver')}
         </h2>
         <h3 class="text-xl font-semibold my-4">v0.1.0</h3>
         <div class="flex flex-col flex-wrap md:flex-row gap-4 justify-between mb-8">
@@ -49,7 +51,7 @@
 <section class="place-items-center w-full bg-primary-400/5">
     <div class="container px-2 md:px-0">
         <h2 class="text-2xl font-semibold text-primary-400 mt-8">
-            Historical Version
+            {t('download-prev_ver')}
         </h2>
         <h3 class="text-xl font-semibold my-4">v0.0.1</h3>
     </div>

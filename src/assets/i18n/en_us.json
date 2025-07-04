@@ -1,0 +1,36 @@
+{
+    "header":{
+        "website_title": "SSB Runner",
+        "home_btn": "Home",
+        "download_btn": "Donwload",
+        "github_btn": "GitHub"
+    },
+    "main": {
+        "title": "SSB competition listening training software",
+        "subtitle": "inspired by MorseRunner"
+    },
+    "download_area": {
+        "title": "Download Right Now",
+        "subtitle": "Click the button to proceed to download page",
+        "btn": "Download"
+    },
+    "dev_team": {
+        "title": "Development Team",
+        "idea": "Idea",
+        "ta": "TA",
+        "ui": "UI/Website"
+    },
+    "sponser": {
+        "title": "Sponer",
+        "cloud": "Cxit Cloud"
+    },
+    "footer": {
+        "line1": "SSB Runner is an non-profit, non-commercial, open source project.",
+        "line2": "It's just because it allows more people to join the competition."
+    },
+    "download": {
+        "title": "Download",
+        "curr_ver": "Current Version",
+        "prev_ver": "Previous Version"
+    }
+}

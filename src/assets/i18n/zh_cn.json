@@ -1,0 +1,36 @@
+{
+    "header":{
+        "website_title": "SSB Runner",
+        "home_btn": "主页",
+        "download_btn": "下载",
+        "github_btn": "GitHub"
+    },
+    "main": {
+        "title": "SSB 比赛听力训练软件",
+        "subtitle": "灵感来源于 MorseRunner"
+    },
+    "download_area": {
+        "title": "马上下载",
+        "subtitle": "点击“下载”按钮跳转到下载页面",
+        "btn": "下载"
+    },
+    "dev_team": {
+        "title": "开发人员",
+        "idea": "创意",
+        "ta": "技术总监",
+        "ui": "界面/网站设计"
+    },
+    "sponser": {
+        "title": "赞助",
+        "cloud": "Cxit Cloud"
+    },
+    "footer": {
+        "line1": "SSB Runner 是一个非盈利，非商业，开源的软件项目。",
+        "line2": "只因它让更多人享受比赛的乐趣。"
+    },
+    "download": {
+        "title": "下载",
+        "curr_ver": "最新版本",
+        "prev_ver": "老旧版本"
+    }
+}
