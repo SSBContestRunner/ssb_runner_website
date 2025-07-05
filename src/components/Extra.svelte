@@ -3,6 +3,57 @@
 </script>
 
 <section class="place-items-center w-full">
+    <div class="container flex flex-col md:flex-row gap-2">
+        <img
+            class="w-full p-2 md:p-4 md:w-2/5"
+            src="/bg1.jpg"
+            alt="real interference"
+        />
+        <div class="mb-4 md:mb-0 px-2 md:px-0 py-4">
+            <h1 class="py-2 text-2xl font-semibold text-primary-400">
+                {t("feature1-title")}
+            </h1>
+            <div class="mt-4">
+                <span>{t("feature1-subtitle")}</span>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="place-items-center w-full bg-primary-400/8">
+    <div class="container flex flex-col md:flex-row-reverse gap-2">
+        <img
+            class="w-full p-2 md:p-4 md:w-2/5"
+            src="/bg2.png"
+            alt="global accents"
+        />
+        <div class="mb-4 md:mb-0 px-2 md:px-4 py-4 md:w-3/5">
+            <h1 class="py-2 text-2xl font-semibold text-primary-400">
+                {t("feature2-title")}
+            </h1>
+            <div class="mt-4">
+                <span>{t("feature2-subtitle")}</span>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="place-items-center w-full">
+    <div class="container flex flex-col md:flex-row gap-2">
+        <img
+            class="w-full p-2 md:p-4 md:w-2/5"
+            src="/bg3.jpg"
+            alt="Pileup simulation"
+        />
+        <div class="mb-4 md:mb-0 px-2 md:px-0 py-4">
+            <h1 class="py-2 text-2xl font-semibold text-primary-400">
+                {t("feature3-title")}
+            </h1>
+            <div class="mt-4">
+                <span>{t("feature3-subtitle")}</span>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="place-items-center w-full bg-primary-400/8">
     <div class="container py-4 px-2 md:px-0">
         <h1 class="text-2xl font-semibold">{t("dev_team-title")}</h1>
         <ul class="flex justify-between md:px-16">
@@ -30,7 +81,7 @@
         </ul>
     </div>
 </section>
-<section class="place-items-center w-full bg-primary-400/8">
+<section class="place-items-center w-full">
     <div class="container py-4 px-2 md:px-0">
         <h1 class="text-2xl font-semibold">{t("sponser-title")}</h1>
         <ul class="flex md:px-16">
