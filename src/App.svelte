@@ -20,9 +20,8 @@
   };
 </script>
 
-<div class="min-h-screen flex flex-col">
-  <Header highlight={page} {toPage} {openLanguageSelectDialog} />
-  <Main {page} {toPage} />
-  <Footer />
-  <I18nDialog bind:this={i18nDialog} />
-</div>
+<Header highlight={page} {toPage} {openLanguageSelectDialog} />
+<Main {page} {toPage} />
+<Footer />
+<I18nDialog bind:this={i18nDialog} />
+

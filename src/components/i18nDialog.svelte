@@ -26,7 +26,7 @@
 </script>
 
 <div
-    class="z-10 absolute bg-black/50 inset-0 {showStyle} justify-center items-center"
+    class="z-10 fixed bg-black/50 inset-0 {showStyle} justify-center items-center"
 >
     <button class="absolute inset-0 z-10" onclick={closeDialog}>_</button>
     <section
