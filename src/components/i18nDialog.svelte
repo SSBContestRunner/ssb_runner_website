@@ -1,4 +1,5 @@
 <script>
+    import Close from "../assets/svgIcon/close.svelte";
     import { getLocale } from "../lib/i18n";
 
     let open = $state(false);
@@ -32,7 +33,9 @@
     <section
         class="w-full md:w-[16em] bg-slate-50 mx-4 py-4 px-6 rounded-lg z-20"
     >
-        <button class="float-right" onclick={closeDialog}>x</button>
+        <button class="float-right cursor-pointer" onclick={closeDialog}>
+            <Close />
+        </button>
         <h1 class="text-lg font-semibold">Select Language</h1>
         <div class="mt-4 flex">
             <button
