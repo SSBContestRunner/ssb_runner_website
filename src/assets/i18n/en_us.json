@@ -14,6 +14,18 @@
         "subtitle": "Click the button to proceed to download page",
         "btn": "Download"
     },
+    "feature1": {
+        "title": "Real Interference",
+        "subtitle": "The crackling static from thunderstorms, the buzzing adjacent frequency interference, and the fluctuating signal fading—classic QRN, QRM, and QSB can all be found here across all shortwave bands."
+    },
+    "feature2": {
+        "title": "Global Accents",
+        "subtitle": "You will hear operators with American, British, Russian, Japanese, and other regional accents - just like in a real international competition. Their speaking speeds vary greatly, ranging from clear and slow to lightning-fast champion speeds. "
+    },
+    "feature3": {
+        "title": "Pileup Simulation",
+        "subtitle": "You can freely set the number of radios responding simultaneously to a single signal response, creating a chaotic scene of up to 15 radios being bombarded at the same time. This trains your ability to accurately capture call signs in chaos."
+    },
     "dev_team": {
         "title": "Development Team",
         "idea": "Idea",
