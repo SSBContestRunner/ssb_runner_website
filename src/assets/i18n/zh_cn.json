@@ -6,7 +6,8 @@
         "github_btn": "GitHub"
     },
     "main": {
-        "title": "SSB 比赛听力训练软件",
+        "title_1": "SSB 比赛",
+        "title_2": "听力训练软件",
         "subtitle": "灵感来源于 MorseRunner"
     },
     "download_area": {

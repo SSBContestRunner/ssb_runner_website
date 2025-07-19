@@ -6,7 +6,8 @@
         "github_btn": "GitHub"
     },
     "main": {
-        "title": "SSB competition listening training software",
+        "title_1": "SSB Competition",
+        "title_2": "Listening Training Software",
         "subtitle": "inspired by MorseRunner"
     },
     "download_area": {
