@@ -18,7 +18,7 @@
         <h2 class="text-3xl font-semibold text-primary-400 mt-8">
             {t("download-curr_ver")}
         </h2>
-        <h3 class="text-xl font-semibold my-4">v0.1.0</h3>
+        <h3 class="text-xl font-semibold my-4">v0.0.3</h3>
         <div
             class="flex flex-col flex-wrap md:flex-row gap-4 justify-between mb-8"
         >
@@ -28,8 +28,8 @@
                 <Win />
                 <div class="flex flex-col gap-2">
                     <span class="font-semibold text-xl">For Windows</span>
-                    <DownloadBtn>x86</DownloadBtn>
                     <DownloadBtn>x86_64</DownloadBtn>
+                    <DownloadBtn show={false}>x86</DownloadBtn>
                 </div>
             </div>
             <div
@@ -39,7 +39,7 @@
                 <div class="flex flex-col gap-2">
                     <span class="font-semibold text-xl">For Mac</span>
                     <DownloadBtn>Intel Chip</DownloadBtn>
-                    <DownloadBtn>Apple Chip</DownloadBtn>
+                    <DownloadBtn show={false}>Apple Chip</DownloadBtn>
                 </div>
             </div>
             <div
@@ -48,18 +48,18 @@
                 <Linux />
                 <div class="flex flex-col gap-2">
                     <span class="font-semibold text-xl">For Linux</span>
-                    <DownloadBtn>x86_64</DownloadBtn>
-                    <DownloadBtn>ARM</DownloadBtn>
+                    <DownloadBtn>tar.gz</DownloadBtn>
+                    <DownloadBtn>rpm</DownloadBtn>
                 </div>
             </div>
         </div>
     </div>
 </section>
 <section class="place-items-center w-full bg-primary-400/5">
-    <div class="container px-2 md:px-0">
-        <h2 class="text-2xl font-semibold text-primary-400 mt-8">
+    <div class="container px-2 md:px-0 py-8">
+        <h2 class="text-2xl font-semibold text-primary-400">
             {t("download-prev_ver")}
         </h2>
-        <h3 class="text-xl font-semibold my-4">v0.0.1</h3>
+        <!-- <h3 class="text-xl font-semibold my-4">v0.0.1</h3> -->
     </div>
 </section>

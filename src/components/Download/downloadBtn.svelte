@@ -1,7 +1,9 @@
 <script>
-    let { children } = $props();
+    let { link = '/', show = true, children } = $props();
+
+    let showStyle = $derived(show ? '' : 'invisible')
 </script>
 
-<button class="w-[8em] rounded-md border-2 py-1 border-primary-400 hover:bg-white cursor-pointer">
+<a href={link} target="_blank" class="{showStyle} w-[8em] text-center rounded-md border-2 py-1 border-primary-400 hover:bg-white cursor-pointer">
     {@render children()}
-</button>
+</a>
