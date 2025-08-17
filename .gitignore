@@ -23,3 +23,7 @@ download/*
 *.njsproj
 *.sln
 *.sw?
+
+
+# build
+public/download
