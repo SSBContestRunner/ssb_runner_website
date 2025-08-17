@@ -2,7 +2,7 @@
     "header":{
         "website_title": "SSB Runner",
         "home_btn": "Home",
-        "download_btn": "Donwload",
+        "download_btn": "Download",
         "github_btn": "GitHub"
     },
     "main": {
@@ -34,7 +34,7 @@
         "ui": "UI/Website"
     },
     "sponser": {
-        "title": "Sponer",
+        "title": "Sponser",
         "cloud": "VPS"
     },
     "footer": {
