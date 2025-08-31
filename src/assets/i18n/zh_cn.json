@@ -33,6 +33,12 @@
         "ta": "技术总监",
         "ui": "界面/网站设计"
     },
+    "test_team": {
+        "title": "测试人员",
+        "windows": "Windows",
+        "mac": "Mac",
+        "linux": "Linux"
+    },
     "sponser": {
         "title": "赞助",
         "cloud": "虚拟专用服务器"

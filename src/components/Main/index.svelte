@@ -18,7 +18,7 @@
     <div class="container flex flex-col md:flex-row md:items-center gap-2">
         <img
             class="w-full p-2 md:p-4 md:w-1/2"
-            src="/screenshot.png"
+            src="/screenshot.jpg"
             alt="screenshot"
         />
         <div class="mb-4 md:mb-0 px-2 md:px-0">

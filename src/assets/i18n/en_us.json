@@ -33,8 +33,14 @@
         "ta": "TA",
         "ui": "UI/Website"
     },
+    "test_team": {
+        "title": "Testing Team",
+        "windows": "Windows",
+        "mac": "Mac",
+        "linux": "Linux"
+    },
     "sponser": {
-        "title": "Sponser",
+        "title": "Donors",
         "cloud": "VPS"
     },
     "footer": {
