@@ -1,5 +1,8 @@
 <script>
     import { t } from "../lib/i18n.js";
+    import ContributorSection from "./Extra/ContributorSection.svelte";
+    import ListTitle from "./Extra/ListTitle.svelte";
+    import SectionTitle from "./Extra/SectionTitle.svelte";
 </script>
 
 <section class="place-items-center w-full even:bg-primary-400/8">
@@ -65,93 +68,65 @@
         </div>
     </div>
 </section>
-<section class="place-items-center w-full even:bg-primary-400/8">
-    <div class="container py-4 px-2 md:px-0">
-        <h1 class="text-2xl md:text-4xl font-semibold">
-            {t("dev_team-title")}
-        </h1>
-        <ul class="flex justify-between md:px-16">
-            <li class="w-[10em]">
-                <h2
-                    class="text-lg md:text-2xl text-primary-400 font-semibold pt-4 pb-1"
-                >
-                    {t("dev_team-idea")}
-                </h2>
-                <p class="font-medium">Jing Luo</p>
-                <p class="font-medium">BG7TVF</p>
-            </li>
-            <li class="w-[10em]">
-                <h2
-                    class="text-lg md:text-2xl text-primary-400 font-semibold pt-4 pb-1"
-                >
-                    {t("dev_team-ta")}
-                </h2>
-                <p class="font-medium">DongLin Li</p>
-                <p class="font-medium">BI1QJQ</p>
-            </li>
-            <li class="w-[10em]">
-                <h2
-                    class="text-lg md:text-2xl text-primary-400 font-semibold pt-4 pb-1"
-                >
-                    {t("dev_team-ui")}
-                </h2>
-                <p class="font-medium">Yangdi Yang</p>
-                <p class="font-medium">BH8GLQ</p>
-            </li>
-        </ul>
-    </div>
-</section>
-<section class="place-items-center w-full even:bg-primary-400/8">
-    <div class="container py-4 px-2 md:px-0">
-        <h1 class="text-2xl md:text-4xl font-semibold">
-            {t("test_team-title")}
-        </h1>
-        <ul class="flex justify-between md:px-16">
-            <li class="w-[10em]">
-                <h2
-                    class="text-lg md:text-2xl text-primary-400 font-semibold pt-4 pb-1"
-                >
-                    {t("test_team-windows")}
-                </h2>
-                <p class="font-medium">Bosen Liang</p>
-                <p class="font-medium">BI3EI</p>
-            </li>
-            <li class="w-[10em]">
-                <h2
-                    class="text-lg md:text-2xl text-primary-400 font-semibold pt-4 pb-1"
-                >
-                    {t("test_team-mac")}
-                </h2>
-                <p class="font-medium">Yankai Li</p>
-                <p class="font-medium">BD4XNS</p>
-            </li>
-            <li class="w-[10em]">
-                <h2
-                    class="text-lg md:text-2xl text-primary-400 font-semibold pt-4 pb-1"
-                >
-                    {t("test_team-linux")}
-                </h2>
-                <p class="font-medium">None</p>
-                <p class="font-medium">None</p>
-            </li>
-        </ul>
-    </div>
-</section>
-<section class="place-items-center w-full even:bg-primary-400/8">
-    <div class="container py-4 px-2 md:px-0">
-        <h1 class="text-2xl md:text-4xl font-semibold">
-            {t("sponser-title")}
-        </h1>
-        <ul class="flex md:px-16">
-            <li>
-                <h2
-                    class="text-lg md:text-2xl text-primary-400 font-semibold pt-4 pb-1"
-                >
-                    {t("sponser-cloud")}
-                </h2>
-                <p class="font-medium">Charley_X_</p>
-                <p class="font-medium">BI3ARY</p>
-            </li>
-        </ul>
-    </div>
-</section>
+<ContributorSection>
+    <SectionTitle>{t("dev_team-title")}</SectionTitle>
+    <ul class="flex justify-between md:px-16">
+        <li class="w-[10em]">
+            <ListTitle>{t("dev_team-idea")}</ListTitle>
+            <p class="font-medium">Jing Luo</p>
+            <p class="font-medium">BG7TVF</p>
+        </li>
+        <li class="w-[10em]">
+            <ListTitle>
+                {t("dev_team-ta")}
+            </ListTitle>
+            <p class="font-medium">DongLin Li</p>
+            <p class="font-medium">BI1QJQ</p>
+        </li>
+        <li class="w-[10em]">
+            <ListTitle>
+                {t("dev_team-ui")}
+            </ListTitle>
+            <p class="font-medium">Yangdi Yang</p>
+            <p class="font-medium">BH8GLQ</p>
+        </li>
+    </ul>
+</ContributorSection>
+<ContributorSection>
+    <SectionTitle>{t("test_team-title")}</SectionTitle>
+    <ul class="flex justify-between md:px-16">
+        <li class="w-[10em]">
+            <ListTitle>
+                {t("test_team-windows")}
+            </ListTitle>
+            <p class="font-medium">Bosen Liang</p>
+            <p class="font-medium">BI3EI</p>
+        </li>
+        <li class="w-[10em]">
+            <ListTitle>
+                {t("test_team-mac")}
+            </ListTitle>
+            <p class="font-medium">Yankai Li</p>
+            <p class="font-medium">BD4XNS</p>
+        </li>
+        <li class="w-[10em]">
+            <ListTitle>
+                {t("test_team-linux")}
+            </ListTitle>
+            <p class="font-medium">None</p>
+            <p class="font-medium">None</p>
+        </li>
+    </ul>
+</ContributorSection>
+<ContributorSection>
+    <SectionTitle>{t("sponser-title")}</SectionTitle>
+    <ul class="flex md:px-16">
+        <li>
+            <ListTitle>
+                {t("sponser-cloud")}
+            </ListTitle>
+            <p class="font-medium">Charley_X_</p>
+            <p class="font-medium">BI3ARY</p>
+        </li>
+    </ul>
+</ContributorSection>
