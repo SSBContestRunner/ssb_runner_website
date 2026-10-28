@@ -1,6 +1,6 @@
 <script>
-    import { getLocale } from "../lib/i18n";
-
+    import { getLocale, t } from "../lib/i18n";
+    
     let open = $state(false);
     let locale = $state("");
 
@@ -17,11 +17,11 @@
 
     const closeDialog = () => {
         open = false;
-        window.localStorage.setItem('locale', locale);
     };
 
     const selectLanguage = (temp_locale) => {
         locale = temp_locale;
+        window.localStorage.setItem('locale', locale);
     };
 </script>
 
@@ -30,11 +30,11 @@
 >
     <button class="absolute inset-0 z-10" onclick={closeDialog}>_</button>
     <section
-        class="w-full md:w-[16em] bg-slate-50 mx-4 py-4 px-6 rounded-lg z-20"
+        class="w-full md:w-[25em] bg-slate-50 mx-4 py-4 px-6 rounded-lg z-20"
     >
         <button class="float-right" onclick={closeDialog}>x</button>
-        <h1 class="text-lg font-semibold">Select Language</h1>
-        <div class="mt-4 flex">
+        <h1 class="text-lg font-semibold">{t('i18n_dialog-title')}</h1>
+        <div class="my-2 flex">
             <button
                 class="border border-primary-400
                 {selectStyle('en_us')}
@@ -48,5 +48,6 @@
                 onclick={() => selectLanguage("zh_cn")}>中文(简体)</button
             >
         </div>
+        <h3>{t('i18n_dialog-hint')}</h3>
     </section>
 </div>
