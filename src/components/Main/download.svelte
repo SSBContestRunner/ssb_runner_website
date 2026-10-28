@@ -49,7 +49,7 @@
             </div>
         </div>
         <div class="mb-2">
-          <h3 class="text-xl font-semibold my-2">Alternative</h3>
+          <h3 class="text-xl font-semibold my-2">{t('download-alternative_title')}</h3>
           <a href="https://github.com/SSBContestRunner/ssb_runner/releases/tag/v0.2.0" target="_blank" class="hover:underline">GitHub</a>
         </div>
     </div>

@@ -1,4 +1,5 @@
 <script>
+    import Close from "../assets/svgIcon/close.svelte";
     import { getLocale, t } from "../lib/i18n";
     
     let open = $state(false);
@@ -32,7 +33,9 @@
     <section
         class="w-full md:w-[25em] bg-slate-50 mx-4 py-4 px-6 rounded-lg z-20"
     >
-        <button class="float-right" onclick={closeDialog}>x</button>
+        <button class="float-right" onclick={closeDialog}>
+          <Close />
+        </button>
         <h1 class="text-lg font-semibold">{t('i18n_dialog-title')}</h1>
         <div class="my-2 flex">
             <button

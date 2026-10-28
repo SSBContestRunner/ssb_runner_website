@@ -49,6 +49,7 @@
     },
     "download": {
         "title": "Download",
+        "alternative_title": "Alternative",
         "curr_ver": "Current Version",
         "prev_ver": "Previous Version"
     },

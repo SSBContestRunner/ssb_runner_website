@@ -49,6 +49,7 @@
     },
     "download": {
         "title": "下载",
+        "alternative_title": "其他渠道",
         "curr_ver": "最新版本",
         "prev_ver": "老旧版本"
     },
@@ -56,5 +57,4 @@
       "title": "选择语言",
       "hint": "刷新页面以重载语言"
     }
-
 }
