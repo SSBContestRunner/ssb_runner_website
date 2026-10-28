@@ -51,5 +51,9 @@
         "title": "Download",
         "curr_ver": "Current Version",
         "prev_ver": "Previous Version"
+    },
+    "i18n_dialog": {
+      "title": "Select Language",
+      "hint": "Refresh page to apply selected language"
     }
 }

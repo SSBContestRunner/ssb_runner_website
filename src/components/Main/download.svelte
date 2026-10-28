@@ -54,9 +54,9 @@
         </div>
     </div>
 </section>
-<section class="place-items-center w-full bg-primary-400/5">
+<section class="place-items-center w-full bg-primary-400/5 py-4 md:py-8">
     <div class="container px-2 md:px-0">
-        <h2 class="text-2xl font-semibold text-primary-400 mt-8">
+        <h2 class="text-2xl font-semibold text-primary-400">
             {t('download-prev_ver')}
         </h2>
         <h3 class="text-xl font-semibold mt-4 mb-2">v0.1.0</h3>
