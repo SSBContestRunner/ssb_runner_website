@@ -18,13 +18,18 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '24'
-          cache: 'npm'
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v3
+        with: 
+          version: latest
+          run_install: false
 
       - name: Install dependences
-        run: npm ci
+        run: pnpm i --frozen-lockfile
 
       - name: Build project
-        run: npm run build
+        run: pnpm build
 
       - name: Deploy build artifacts via rsync
         uses: burnett01/rsync-deployments@v9
